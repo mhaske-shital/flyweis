@@ -1,0 +1,9 @@
+.roundedButtton{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+.roundedButtton:after{
+    background-color: blue;
+}
