@@ -1,37 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./dashbord.css"
+import Graph from './Graph'
 export default function Dashboard() {
   return (
-  <>
-  <section> 
-        <div class="box">
-            <div class="skill">
-                <div class="graph" style={{height: "85%"}}>
-                    <div class="percent">85%</div>
-                </div>
-                <div class="name">Day</div>
-            </div>
-            <div class="skill">
-                <div class="graph" style={{height: "92%"}}>
-                    <div class="percent">92%</div>
-                </div>
-                <div class="name">week</div>
-            </div>
-            <div class="skill">
-                <div class="graph" style={{height: "72%"}}>
-                    <div class="percent">72%</div>
-                </div>
-                <div class="name">Month</div>
-            </div>
-            <div class="skill">
-                <div class="graph" style={{height: "80%"}}>
-                    <div class="percent">80%</div>
-                </div>
-                <div class="name">year</div>
-            </div>
-            
-        </div>
-    </section>
-  </>
+  <div style={{ marginLeft:"200px",marginRight:"200px"}}>    
+   <div className="btncontainer d-flex justify-content-around" >
+    <button style={{backgroundColor:"#E9AFF9", border:"none"}}>hello</button>
+    <button>hello</button>
+    <button>hello</button>
+   </div>
+  </div>
   )
 }

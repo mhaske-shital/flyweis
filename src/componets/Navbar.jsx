@@ -26,8 +26,8 @@ export default function Navbar() {
   <i class="fa-solid fa-language"></i>
     <span style={{color:"black"}} className="boxmargin">language</span>
   </Link>
-  <hr />
- 
+ <br />
+ <br />
  <a href='https://www.rootmit.com/'  class="nav-item"><i class="fa-solid fa-globe"></i></a>
     <span  style={{color:"black"}}>Go to website</span>
   <br />
@@ -39,20 +39,20 @@ export default function Navbar() {
  <br />
  <br />
  <Link to ="dashbord" class="nav-item" >
-  <i class="fa-solid fa-home"></i>
+  <i class="fa-solid fa-dashboard"></i>
     <span style={{color:"black"}}>dashboard</span>
   </Link>
   <br />
   <br />
 
  <Link to ="quick" class="nav-item" >
-  <i class="fa-solid fa-home"></i>
+  <i class="fa-solid fa-file"></i>
     <span style={{color:"black"}}>Quike Setup</span>
   <br />
   <br />
   </Link>
- <Link to ="nav" class="nav-item" >
-  <i class="fa-solid fa-home"></i>
+ <Link to ="payment" class="nav-item" >
+  <i class="fa-solid fa-file"></i>
     <span style={{color:"black"}}>payments</span>
   </Link>
   <br />

@@ -4,6 +4,14 @@
     margin-left: 50px;
     margin-top: 90px;
 }
-.roundedButtton:after{
-    background-color: blue;
+
+.btn .btn-light{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+.iconp{
+    padding-top: 35px;
+    color: blue;
 }
